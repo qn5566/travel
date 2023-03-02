@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My App</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function getMobileOperatingSystem() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        if (/android/i.test(userAgent)) {
+          return "android";
+        }
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+          return "ios";
+        }
+        return "unknown";
+      }
+      function redirectToAppStore() {
+        var os = getMobileOperatingSystem();
+        if (os === "ios") {
+          window.location.href = "https://apps.apple.com/us/app/台灣景點地圖/id1671108420";
+        } else if (os === "android") {
+          window.location.href = "https://play.google.com/store/apps/details?id=com.meetstudio.travel&pli=1";
+        } else {
+          alert("Sorry, your device is not supported.");
+        }
+      }
+      redirectToAppStore();
+    </script>
+  </body>
+</html>
