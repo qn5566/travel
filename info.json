@@ -5,5 +5,41 @@
     "notice": "有問題歡迎與我聯繫喔~ \nsohotguys@gmail.com",
     "android_url": "https://play.google.com/store/apps/details?id=com.meetstudio.travel&pli=1",
     "ios_url": "https://apps.apple.com/us/app/%E5%8F%B0%E7%81%A3%E6%99%AF%E9%BB%9E%E5%9C%B0%E5%9C%96/id1671108420",
-    "option": ""
+    "title_travel": [
+    "臺北市",
+    "基隆市",
+    "臺中市",
+    "高雄市",
+    "澎湖縣",
+    "臺南市",
+    "金門縣",
+    "屏東縣",
+    "新竹市",
+    "新竹縣",
+    "桃園市",
+    "苗栗縣",
+    "臺東縣",
+    "彰化縣",
+    "南投縣",
+    "花蓮縣",
+    "新北市",
+    "連江縣",
+    "宜蘭縣",
+    "嘉義市",
+    "嘉義縣",
+    "雲林縣"
+  ],
+  "key_word_travel": [
+    "公園",
+    "夜市"
+  ],
+  "data_api": [
+    "https://media.taiwan.net.tw/XMLReleaseALL_public/scenic_spot_C_f.json"
+  ],
+  "option": "感謝您使用我們的App，我們十分感謝您的支持和信任！我們將繼續不斷地改進和提升App的品質，希望能夠為您帶來更好的使用體驗。如果您對App有任何的建議或意見，請不要猶豫，隨時與我們聯繫。再次感謝您的使用！",
+  "info_menu": [
+    "探訪台灣特色小吃",
+    "最受歡迎的5種小吃",
+    "在台灣，有許多獨特的小吃美食，每個地方都有自己的特色。以下是最受歡迎的5種小吃：\n\n1. 鹹酥雞\n2. 珍珠奶茶\n3. 大腸包小腸\n4. 魯肉飯\n5. 小籠包"
+  ]
 }
