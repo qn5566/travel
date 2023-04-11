@@ -1,11 +1,11 @@
 {
-    "ios_version": "16",
-    "android_version": "16",
-    "info": "新版已經上線!!\n1. 緩存機制更新.\n2. 修正一些錯誤.",
-    "notice": "有問題歡迎與我聯繫喔~ \nsohotguys@gmail.com",
-    "android_url": "https://play.google.com/store/apps/details?id=com.meetstudio.travel",
-    "ios_url": "https://apps.apple.com/us/app/%E5%8F%B0%E7%81%A3%E6%99%AF%E9%BB%9E%E5%9C%B0%E5%9C%96/id1671108420",
-    "title_travel": [
+  "ios_version": "16",
+  "android_version": "16",
+  "info": "新版已經上線!!\n1. 緩存機制更新.\n2. 修正一些錯誤.",
+  "notice": "有問題歡迎與我聯繫喔~ \nsohotguys@gmail.com",
+  "android_url": "https://play.google.com/store/apps/details?id=com.meetstudio.travel",
+  "ios_url": "https://apps.apple.com/us/app/%E5%8F%B0%E7%81%A3%E6%99%AF%E9%BB%9E%E5%9C%B0%E5%9C%96/id1671108420",
+  "title_travel": [
     "臺北市",
     "基隆市",
     "臺中市",
