@@ -3,33 +3,41 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>台灣景點資訊</title>
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="台灣景點資訊">
+  <meta property="og:description" content="快來下載台灣景點資訊 App，準備玩爆大台灣！">
+  <meta property="og:image" content="res/app_icon.png">
+  <meta property="og:url" content="./app.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="台灣景點資訊">
+  <meta name="twitter:description" content="快來快來下載台灣景點資訊 App，準備玩爆大台灣！">
+  <meta name="twitter:image" content="res/app_icon.png">
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      if (/android/i.test(userAgent)) {
+        // 如果是 Android 裝置
+        window.location.href = "https://play.google.com/store/apps/details?id=com.meetstudio.travel";
+      } else if (/iPhone|iPad|iPod/i.test(userAgent)) {
+        // 如果是 iOS 裝置
+        window.location.href = "https://apps.apple.com/us/app/id1671108420";
+      }
+    });
+  </script>
 </head>
 
 <body>
-  <script type="text/javascript">
-    function getMobileOperatingSystem() {
-      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-      if (/android/i.test(userAgent)) {
-        return "android";
-      }
-      if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        return "ios";
-      }
-      return "unknown";
-    }
-    function redirectToAppStore() {
-      var os = getMobileOperatingSystem();
-      if (os === "ios") {
-        window.location.href = "https://apps.apple.com/us/app/id1671108420";
-      } else if (os === "android") {
-        window.location.href = "https://play.google.com/store/apps/details?id=com.meetstudio.travel";
-      } else {
-        alert("Sorry, your device is not supported.");
-      }
-    }
-    redirectToAppStore();
-  </script>
+  <a href="https://apps.apple.com/us/app/id1671108420" target="_blank">
+    <img src="res/app_icon.png" alt="快點來下載喔~" style="max-width: 100%; height: auto;">
+  </a>
 </body>
 
 </html>
