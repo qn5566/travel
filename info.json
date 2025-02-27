@@ -1,10 +1,10 @@
 {
-  "ios_version": "23",
-  "android_version": "23",
-  "info": "新版已經上線!!\n1. 修正附近資料更新文字與顏色.\n2. 修正刪除歷史記錄的按鈕顏色.\n",
+  "ios_version": "30",
+  "android_version": "30",
+  "info": "1. 新增熱門景點功能.\n2. 增加跑馬燈即時顯示最新留言.\n3. 新增留言板.\n4. 調整景點樣式.\n5. 調整細節UI/UX.\n6. 新增推送.\n7. 新增手動更新資料功能",
   "notice": "有問題歡迎與我聯繫喔~ \nsohotguys@gmail.com",
   "android_url": "https://play.google.com/store/apps/details?id=com.meetstudio.travel",
-  "ios_url": "https://apps.apple.com/us/app/%E5%8F%B0%E7%81%A3%E6%99%AF%E9%BB%9E%E5%9C%B0%E5%9C%96/id1671108420",
+  "ios_url": "https://apps.apple.com/us/app/id1671108420",
   "title_travel": [
     "臺北市",
     "基隆市",
