@@ -1,7 +1,7 @@
 {
-  "ios_version": "30",
-  "android_version": "30",
-  "info": "1. 新增熱門景點功能.\n2. 增加跑馬燈即時顯示最新留言.\n3. 新增留言板.\n4. 調整景點樣式.\n5. 調整細節UI/UX.\n6. 新增推送.\n7. 新增手動更新資料功能",
+  "ios_version": "32",
+  "android_version": "32",
+  "info": "1. 新增想去的景點功能.\n2. 增加下拉更新資料之功能.\n3. 新增隨機景點功能.",
   "notice": "有問題歡迎與我聯繫喔~ \nsohotguys@gmail.com",
   "android_url": "https://play.google.com/store/apps/details?id=com.meetstudio.travel",
   "ios_url": "https://apps.apple.com/us/app/id1671108420",
