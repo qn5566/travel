@@ -1,7 +1,7 @@
 {
-  "ios_version": "33",
-  "android_version": "32",
-  "info": "1. 新增想去的景點功能.\n2. 增加下拉更新資料之功能.\n3. 新增隨機景點功能.",
+  "ios_version": "36",
+  "android_version": "36",
+  "info": "1. 增加無資料的圖示.\n2. 留言板自動下拉功能.\n3. 增加亂數功能.",
   "notice": "有問題歡迎與我聯繫喔~ \nsohotguys@gmail.com",
   "android_url": "https://play.google.com/store/apps/details?id=com.meetstudio.travel",
   "ios_url": "https://apps.apple.com/us/app/id1671108420",
