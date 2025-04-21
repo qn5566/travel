@@ -1,7 +1,7 @@
 {
-  "ios_version": "36",
-  "android_version": "36",
-  "info": "1. 增加無資料的圖示.\n2. 留言板自動下拉功能.\n3. 增加亂數功能.",
+  "ios_version": "39",
+  "android_version": "39",
+  "info": "1. 調整留言板.\n2. 調整圖片.\n3. 替換背景圖片.\n4. 替換loading圖片.",
   "notice": "有問題歡迎與我聯繫喔~ \nsohotguys@gmail.com",
   "android_url": "https://play.google.com/store/apps/details?id=com.meetstudio.travel",
   "ios_url": "https://apps.apple.com/us/app/id1671108420",
