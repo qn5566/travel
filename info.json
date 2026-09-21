@@ -36,7 +36,7 @@
     "夜市"
   ],
   "data_api": [
-    "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+    "https://raw.githubusercontent.com/qn5566/travel/main/data/Attraction-json.zip"
   ],
   "option": "感謝您使用我們的App，我們十分感謝您的支持和信任！我們將繼續不斷地改進和提升App的品質，希望能夠為您帶來更好的使用體驗。如果您對App有任何的建議或意見，請不要猶豫，隨時與我們聯繫。再次感謝您的使用！",
   "info_menu": [
