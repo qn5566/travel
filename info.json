@@ -44,5 +44,45 @@
     "探訪台灣特色小吃",
     "最受歡迎的5種小吃",
     "在台灣，有許多獨特的小吃美食，每個地方都有自己的特色。以下是最受歡迎的5種小吃：\n\n1. 鹹酥雞\n2. 珍珠奶茶\n3. 大腸包小腸\n4. 魯肉飯\n5. 小籠包"
+  ],
+  "recommend_app": [
+    {
+      "title": "Baby Learn English｜遊戲學 ABC",
+      "subtitle": "邊玩邊學，輕鬆認識英文字母",
+      "image": "https://raw.githubusercontent.com/qn5566/ActivityEvent/main/res/images/pics/ads_banner_4.webp",
+      "image_height": 76,
+      "url": "https://qn5566.github.io/BabayLearnEnglish/"
+    },
+    {
+      "title": "HiMyDream 親子台灣旅遊部落客",
+      "subtitle": "親子共遊靈感與實用攻略",
+      "image": "https://raw.githubusercontent.com/qn5566/travel/main/res/images/pics/ads_banner_1.webp",
+      "image_height": 76,
+      "url": "https://himydream.me/"
+    },
+    {
+      "title": "台灣吃喝玩樂地圖 APP",
+      "subtitle": "景點、美食、路線一手掌握",
+      "image": "https://raw.githubusercontent.com/qn5566/travel/main/res/images/pics/ads_banner_2.webp",
+      "image_height": 76,
+      "android_url": "https://play.google.com/store/apps/details?id=com.meetstudio.event",
+      "ios_url": "https://apps.apple.com/us/app/id6446348643"
+    },
+    {
+      "title": "寵物領養紀錄 APP",
+      "subtitle": "給毛小孩最完整的陪伴紀錄",
+      "image": "https://raw.githubusercontent.com/qn5566/travel/main/res/images/pics/ads_banner_3.webp",
+      "image_height": 76,
+      "android_url": "https://play.google.com/store/apps/details?id=com.meetstudio.app.adoptpet",
+      "ios_url": "https://apps.apple.com/us/app/id6737406473"
+    },
+    {
+      "title": "幫忙打分給予支持，大感謝",
+      "subtitle": "你的肯定就是我們前進的動力",
+      "image": "https://raw.githubusercontent.com/qn5566/travel/main/res/images/icon/rate_us.webp",
+      "image_height": 40,
+      "android_url": "https://play.google.com/store/apps/details?id=com.meetstudio.travel&reviewId=0",
+      "ios_url": "https://apps.apple.com/us/app/id1671108420?action=write-review"
+    }
   ]
 }
