@@ -1,46 +1,15 @@
-<!doctype html>
-<html lang="zh-Hant">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>台灣景點地圖 App｜探索全台景點、夜市與公園 | Taiwan Explorer</title>
-    <meta
-      name="description"
-      content="台灣景點地圖 Taiwan Explorer，快速探索全台景點、夜市、公園與附近好去處。免費下載 App，規劃你的下一趟旅程。"
-    />
-    <meta
-      name="keywords"
-      content="台灣景點地圖, 台灣景點, 景點地圖, 台灣旅遊, 旅遊 App, 附近景點, 夜市, 公園"
-    />
-    <link rel="canonical" href="https://qn5566.github.io/travel/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="zh_TW" />
-    <meta property="og:title" content="台灣景點地圖 App｜探索全台景點" />
-    <meta
-      property="og:description"
-      content="快速探索全台景點、夜市、公園與附近好去處。"
-    />
-    <meta property="og:image" content="https://raw.githubusercontent.com/qn5566/travel/main/res/app_icon.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="台灣景點地圖 App｜Taiwan Explorer" />
-    <meta
-      name="twitter:description"
-      content="探索身邊的精彩，找到你的下一站。"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <style>
+<!-- Taiwan Explorer WordPress embed -->
+<style>
+
       :root {
         --b: #061426;
         --c: #42e5f7;
         --m: #a8bdd0;
       }
-      * {
+      .taiwan-map-page, .taiwan-map-page * {
         box-sizing: border-box;
       }
-      body {
+      .taiwan-map-page {
         margin: 0;
         background: var(--b);
         color: #f5f9ff;
@@ -51,7 +20,7 @@
         color: inherit;
         text-decoration: none;
       }
-      .wrap {
+      .taiwan-map-page .wrap {
         width: min(1120px, calc(100% - 48px));
         margin: auto;
       }
@@ -88,13 +57,13 @@
         color: var(--m);
         font-size: 14px;
       }
-      .hero {
+      .taiwan-map-page .hero {
         padding: 160px 0 110px;
         min-height: 740px;
         background: radial-gradient(circle at 58% 40%, #10415e, var(--b) 58%);
         overflow: hidden;
       }
-      .hero-grid {
+      .taiwan-map-page .hero-grid {
         display: grid;
         grid-template-columns: 1fr 430px;
         gap: 60px;
@@ -277,10 +246,10 @@
         .navlinks {
           display: none;
         }
-        .hero {
+        .taiwan-map-page .hero {
           padding-top: 130px;
         }
-        .hero-grid {
+        .taiwan-map-page .hero-grid {
           grid-template-columns: 1fr;
           gap: 45px;
         }
@@ -304,7 +273,7 @@
         }
       }
       @media (max-width: 480px) {
-        .wrap {
+        .taiwan-map-page .wrap {
           width: calc(100% - 32px);
         }
         .hero h1 {
@@ -334,13 +303,13 @@
         }
       }
       /* WordPress theme isolation */
-      #top .hero {
+      #top .taiwan-map-page .hero {
         display: block !important;
         height: auto !important;
         min-height: 620px !important;
         padding: 100px 0 80px !important;
       }
-      #top .hero-grid {
+      #top .taiwan-map-page .hero-grid {
         display: grid !important;
         align-items: center !important;
       }
@@ -352,28 +321,26 @@
         height: auto !important;
       }
       @media (max-width: 800px) {
-        #top .hero {
+        #top .taiwan-map-page .hero {
           min-height: 0 !important;
           padding: 70px 0 60px !important;
         }
       }
-    </style>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "台灣景點地圖",
-        "alternateName": "Taiwan Explorer",
-        "applicationCategory": "TravelApplication",
-        "operatingSystem": "iOS, Android",
-        "description": "探索全台景點、夜市、公園與附近好去處的旅遊 App。",
-        "image": "https://raw.githubusercontent.com/qn5566/travel/main/res/app_icon.png",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TWD" }
-      }
-    </script>
-  </head>
-  <body>
-    <header>
+    
+.taiwan-map-page { width:100%; overflow:hidden; }
+.taiwan-map-page .hero {
+  background: radial-gradient(circle at 58% 40%, #10415e, #061426 58%) !important;
+  color: #f5f9ff !important;
+}
+.taiwan-map-page .hero p { color: #a8bdd0 !important; }
+.taiwan-map-page .hero h1,
+.taiwan-map-page .hero .eyebrow { color: #f5f9ff !important; }
+.taiwan-map-page .hero h1 span { color: #42e5f7 !important; }
+.taiwan-map-page .taiwan-map-page .hero { margin:0; }
+</style>
+<div class="taiwan-map-page">
+
+    
       <div class="wrap nav">
         <a class="brand" href="#top"
           ><img src="https://raw.githubusercontent.com/qn5566/travel/main/res/app_icon.png" alt="台灣景點地圖 App 圖示" /><span
@@ -385,7 +352,7 @@
           ><a href="#download">立即下載</a>
         </nav>
       </div>
-    </header>
+    
     <main id="top">
       <section class="hero">
         <div class="wrap hero-grid">
@@ -513,5 +480,5 @@
     <footer class="footer">
       © 2026 Taiwan Explorer．讓台灣的每個角落，都成為旅程。
     </footer>
-  </body>
-</html>
+  
+</div>
