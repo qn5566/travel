@@ -1,9 +1,9 @@
-<!-- 請將這段放進 WordPress「自訂 HTML」區塊，不要放到一般段落或文字區塊。 -->
+<!-- 請將這段完整放進 WordPress「自訂 HTML」區塊，不要放到一般段落或文字區塊。 -->
 <div class="taiwan-map-embed">
   <iframe
     src="https://qn5566.github.io/travel/app.html"
     title="台灣景點地圖 Taiwan Explorer"
-    loading="lazy"
+    loading="eager"
     allow="fullscreen"
   ></iframe>
 </div>
@@ -20,13 +20,13 @@
   .taiwan-map-embed iframe {
     display: block;
     width: 100%;
-    height: 2850px;
+    height: 2500px;
     border: 0;
   }
 
   @media (max-width: 800px) {
     .taiwan-map-embed iframe {
-      height: 3900px;
+      height: 3400px;
     }
   }
 </style>
