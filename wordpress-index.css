@@ -470,6 +470,17 @@
   margin: 12px 0 !important;
 }
 
+#top .feature h3 {
+  color: #f5f9ff !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  letter-spacing: normal !important;
+  margin: 18px 0 5px !important;
+  padding: 0 !important;
+  border-bottom: none !important;
+}
+
 #top .head p,
 #top .download p,
 #top .feature p {
